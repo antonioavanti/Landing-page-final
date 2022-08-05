@@ -40,6 +40,27 @@
 
 // build the nav
 
+const navMenu = document.getElementsByClassName("navbar__menu");
+
+document.getElementById("navbar__list");
+
+const landscapes = document.createElement("li");
+const stillLife = document.createElement("li");
+const portraits = document.createElement("li");
+
+landscapes.textContent = "LandScapes";
+stillLife.textContent = "Still-Life";
+portraits.textContent = "Portraits";
+
+
+navbar__list.append(landscapes, stillLife, portraits);
+
+navMenu.appendChild(navbar__list);
+
+
+
+
+
 
 // Add class 'active' to section when near top of viewport
 
